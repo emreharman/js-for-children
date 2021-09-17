@@ -46,7 +46,21 @@ if (sayi < 0) {
 }
 
 
+//dersteki örnek
 
+let sayi1 = Number(prompt("Lütfen bir sayı girin"))
+
+
+alert("Girdiğiniz sayının faktoriyeli = " + faktoriyelAl(sayi1))
+
+
+function faktoriyelAl(sayi) {
+    let sonuc = 1
+    for (let sayac = sayi; sayac > 0; sayac--){
+        sonuc=sonuc * sayac
+    }
+    return sonuc
+}
 
 
 
